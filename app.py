@@ -1,5 +1,5 @@
 def greet(name, greeting="Hello"):
-    return f"{greeting}, {name}!"
+    return f"{greeting}, {name.strip()}!"
 
 
 def farewell(name):
