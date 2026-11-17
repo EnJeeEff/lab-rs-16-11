@@ -1,5 +1,10 @@
-def greet(name):
-    return f"Hello, {name.strip()}!"
+def greet(name, greeting="Hello"):
+    """Вернуть приветствие для name.
+
+    greeting - слово приветствия (по умолчанию "Hello").
+    Пробелы по краям name обрезаются.
+    """
+    return f"{greeting}, {name.strip()}!"
 
 
 def farewell(name):
