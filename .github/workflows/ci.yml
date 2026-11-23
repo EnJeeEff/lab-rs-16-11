@@ -25,3 +25,5 @@ jobs:
 
       - name: TruffleHog OSS
         uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --results=verified,unknown
